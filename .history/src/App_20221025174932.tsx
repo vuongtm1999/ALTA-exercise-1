@@ -24,7 +24,7 @@ function App() {
   // ]
   return (
     <div className="App">
-      <Input value='' handleChange={(e) => { console.log("Changed!", e)}} />
+      <Input value='' handleChange={(handleChange) => {}} />
     </div>
   );
 }

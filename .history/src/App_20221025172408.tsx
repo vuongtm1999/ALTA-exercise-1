@@ -1,6 +1,9 @@
 import './App.css';
 import { Button } from './components/Button';
-import { Input } from './components/Input';
+import { Greet } from './components/Greet';
+import { Person } from './components/Person';
+import { PersonList } from './components/PersonList';
+import Test from './components/Test';
 
 function App() {
   // const personName = {
@@ -24,7 +27,7 @@ function App() {
   // ]
   return (
     <div className="App">
-      <Input value='' handleChange={(e) => { console.log("Changed!", e)}} />
+      <Button  />
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import './App.css';
 import { Button } from './components/Button';
-import { Input } from './components/Input';
 
 function App() {
   // const personName = {
@@ -24,7 +23,9 @@ function App() {
   // ]
   return (
     <div className="App">
-      <Input value='' handleChange={(e) => { console.log("Changed!", e)}} />
+      <Button handleClick={(event, id)=> {
+        console.log("Button clicked", event);
+      }} />
     </div>
   );
 }

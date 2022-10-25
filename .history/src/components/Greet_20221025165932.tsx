@@ -7,7 +7,7 @@ type Greetprops = {
 
 // Có React.FC thì không đc xài (props: Greetprops)
 const Greet = (props: Greetprops) => {
-    // set default value for propertie messageCount (destructuring object )
+    // set default value for propertie messageCount
     const { messageCount = 0 } = props;
 
     return ( 

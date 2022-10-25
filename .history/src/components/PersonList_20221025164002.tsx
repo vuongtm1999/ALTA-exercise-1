@@ -7,6 +7,10 @@ type PersonListProps = {
 
 export const PersonList = (props: PersonListProps) => {
     return ( 
-        <h2>Place Holder </h2>
+        <div>
+            {props.names.map(name => { 
+                return <li>{name.firstName} {name.lastName}</li>
+            })}
+        </div>
      );
 }
