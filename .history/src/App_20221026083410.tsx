@@ -1,5 +1,6 @@
 import './App.css';
-import { CustomButton } from './html/Button';
+import { Counter } from './state/Couner';
+
 
 function App() {
   // const personName = {
@@ -23,7 +24,7 @@ function App() {
   // ]
   return (
     <div className="App">
-      <CustomButton variant={"primary"}>Primary BTN</CustomButton>
+      <Counter />
     </div>
   );
 }

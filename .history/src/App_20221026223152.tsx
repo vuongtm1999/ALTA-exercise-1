@@ -1,5 +1,6 @@
 import './App.css';
 import { CustomButton } from './html/Button';
+import { CustomComponent } from './html/CustomComponent';
 
 function App() {
   // const personName = {

@@ -1,5 +1,7 @@
 import './App.css';
-import { CustomButton } from './html/Button';
+import { Button } from './components/Button';
+import { Container } from './components/Container';
+import { Input } from './components/Input';
 
 function App() {
   // const personName = {
@@ -23,7 +25,7 @@ function App() {
   // ]
   return (
     <div className="App">
-      <CustomButton variant={"primary"}>Primary BTN</CustomButton>
+      <Container styles={ { border: "1px solid red", padding: "10px" } } />
     </div>
   );
 }

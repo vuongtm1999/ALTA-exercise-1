@@ -1,5 +1,8 @@
 import './App.css';
-import { CustomButton } from './html/Button';
+import { Box } from './Context/Box';
+import { ThemeContextProvider } from './Context/ThemeContext';
+import { Counter } from './state/Couner';
+
 
 function App() {
   // const personName = {
@@ -23,7 +26,9 @@ function App() {
   // ]
   return (
     <div className="App">
-      <CustomButton variant={"primary"}>Primary BTN</CustomButton>
+      <ThemeContextProvider>
+        <Box />
+      </ThemeContextProvider>
     </div>
   );
 }
